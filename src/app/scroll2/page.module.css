@@ -1,0 +1,56 @@
+
+  
+  .flexContainer {
+    display: flex;
+    border-width: 8px;
+    border-color: #3b82f6; 
+  }
+  
+  .sidebar {
+    height: 400px;
+    border-width: 2px;
+    background-color: #86efac; 
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+  
+  .sidebarLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+  }
+  
+  .mainContent {
+    flex-grow: 1;
+    border-width: 2px;
+    background-color: #4ade80; 
+    padding: 1rem;
+  }
+  
+  .section {
+    height: 500px;
+    background-color: #facc15;
+    margin-bottom: 2.5rem;
+    padding: 2.5rem;
+  }
+  
+  .rightSidebar {
+    height: 700px;
+    border-width: 2px;
+    background-color: #34d399; 
+  }
+  
+  .footerCon {
+    height: 1500px;
+    background-color: #bfdbfe; 
+  }
+  
+  
+  
+  
+ 
+  
+  
