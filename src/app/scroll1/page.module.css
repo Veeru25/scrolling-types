@@ -33,13 +33,11 @@
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    /* scrollbar-width: none;  */
     border-right: 1px solid #ccc;
+    scrollbar-width: thin;
 }
 
-.chatBox::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome/Safari */
-}
 
 .message {
     max-width: 60%;
