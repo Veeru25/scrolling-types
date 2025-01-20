@@ -21,27 +21,24 @@
 .container {
     display: flex;
     flex-direction: row;
-    height: calc(100vh - 40px);
-    /* padding: 1rem; */
-    /* gap: 1rem; */
+    height: calc(100vh - 45px); /* Subtract the header height from 100vh */
 }
 
 .chatBox {
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+    overflow-y: auto; /* Allow scrolling only within chatBox */
     padding: 1rem;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    scrollbar-width: none;
-    /* Hide scrollbar for Firefox */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
     border-right: 1px solid #ccc;
 }
 
 .chatBox::-webkit-scrollbar {
-    display: none;
+    display: none; /* Hide scrollbar for Chrome/Safari */
 }
 
 .message {
@@ -80,10 +77,7 @@
     justify-content: center;
     align-items: center;
 }
-.removePadding{
+
+.removePadding {
     padding-top: 0px;
 }
-/* .chatContainer{
-    display: flex;
-    flex-direction: column;
-}  */
